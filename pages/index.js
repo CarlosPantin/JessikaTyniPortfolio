@@ -75,11 +75,10 @@ export default function Home() {
           </nav>
           <div className="text-center p-10 py-10">
             <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
-              Carlos Pantin
+              Jessika Tyni
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl">
-              Passionate Developer
-            </h3>
+              Marketing            </h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">
               Passionate developer always learning new skills and adapting to new technologies. Hit me down below and let's get to business!!!
             </p>
