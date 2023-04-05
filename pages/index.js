@@ -84,7 +84,7 @@ export default function Home() {
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <a href=""><FiArrowRight /></a>
-              <a href="https://linkedin.com/in/carlospantinp"><AiFillLinkedin /></a>
+              <a href="https://www.linkedin.com/in/jessika-tyni-806222220/"><AiFillLinkedin /></a>
               <a href=""><FiArrowLeft /></a>
             </div>
             <div className="mx-auto bg-gradient-to-b from-teal-500 rounded-full  relative overflow-hidden mt-20  sm:h-20 sm:w-20 md:h-96 md:w-96">
