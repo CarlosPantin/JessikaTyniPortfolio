@@ -80,7 +80,7 @@ export default function Home() {
             <h3 className="text-2xl py-2 md:text-3xl">
               Marketing            </h3>
             <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">
-              Passionate developer always learning new skills and adapting to new technologies. Hit me down below and let's get to business!!!
+              TRYING TO SEE IF THIS WORKS
             </p>
             <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
               <a href=""><FiArrowRight /></a>
