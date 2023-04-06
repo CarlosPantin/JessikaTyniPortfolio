@@ -20,12 +20,12 @@ export default function Home() {
   
    
     const onButtonClick = () => {
-        fetch('CarlosPantinCurriculum.pdf').then(response => {
+        fetch('ResumeJessikaTyni.pdf').then(response => {
             response.blob().then(blob => {
                 const fileURL = window.URL.createObjectURL(blob);
                 let alink = document.createElement('a');
                 alink.href = fileURL;
-                alink.download = 'CarlosPantinCurriculum.pdf';
+                alink.download = 'ResumeJessikaTyni.pdf';
                 alink.click();
             })
         })
