@@ -48,10 +48,11 @@ export default function Home() {
         <link rel="icon" href="/cp.ico" />
       </Head>
 
-      <main className=" bg-teal-100  px-10 md:px-20 lg:px-40 dark:bg-gray-800">
+      <main className=" bg-gradient-to-r from-blue-800  to-blue-500   px-10 md:px-20 lg:px-40 ">
+        
         <section className="min-h-screen">
           <nav className="py-10 mb-12 flex justify-between dark:text-white">
-            <h1 className="font-burtons text-xl">Carlos Pantin</h1>
+            <h1 className="font-burtons text-xl">Jessika Tyni</h1>
             <ul className="flex items-center">
               <li>
                 <BsFillMoonStarsFill
@@ -74,15 +75,15 @@ export default function Home() {
             </ul>
           </nav>
           <div className="text-center p-10 py-10">
-            <h2 className="text-5xl py-2 text-teal-600 font-medium dark:text-teal-400 md:text-6xl">
+            <h2 className="text-5xl py-2 text-black font-medium dark:text-teal-400 md:text-6xl">
               Jessika Tyni
             </h2>
             <h3 className="text-2xl py-2 md:text-3xl">
               Marketing            </h3>
-            <p className="text-md py-5 leading-8 text-gray-800 md:text-xl max-w-xl mx-auto dark:text-white">
+            <p className="text-md py-5 leading-8 text-black md:text-xl max-w-xl mx-auto dark:text-white">
               Add Whatever you want here :D
             </p>
-            <div className="text-5xl flex justify-center gap-16 py-3 text-gray-600 dark:text-gray-400">
+            <div className="text-5xl flex justify-center gap-16 py-3 text-black dark:text-gray-400">
               <a href=""><FiArrowRight /></a>
               <a href="https://www.linkedin.com/in/jessika-tyni-806222220/"><AiFillLinkedin /></a>
               <a href=""><FiArrowLeft /></a>
@@ -93,19 +94,19 @@ export default function Home() {
           </div>
         </section>
         <section>
-          <div>
-            <h3 className="text-3xl py-1 dark:text-white ">Skills I have developed</h3>
-            <p className="text-md py-2 leading-8 text-gray-900 dark:text-gray-200">
+          <div className='text-center'>
+            <h3 className="text-3xl py-1 text-black dark:text-white ">Skills I have developed</h3>
+            <p className="text-lg py-2 leading-8 text-black text-center dark:text-gray-200">
               Since the beginning of my developer journey, I have developed a wide variety of projects both for study purposes and personal proejcts while using and learning a wide amount of technologies.
               
               
             </p>
-            <p className="text-md py-2 leading-8 text-gray-900 dark:text-gray-200">
-              I am always thriving to <span className="text-blue-600">learn</span> new techniques and <span className="text-teal-600">adapt</span> to new technologies. LEARNING NEVER ENDS!
+            <p className="text-lg py-2 leading-8 text-black dark:text-gray-200">
+              I am always thriving tolearn new techniques and adapt to new technologies. LEARNING NEVER ENDS!
             </p>
             </div>
             <div className="lg:flex gap-10">
-              <div className="text-center shadow-lg p-10 rounded-xl my-10">
+              <div className="text-center shadow-2xl p-10 rounded-xl my-10">
                 <div style={{display: "flex",justifyContent: "center",}}>
                 <Image src={webdesign} width={100} height={100}/>
                 </div>
@@ -120,7 +121,7 @@ export default function Home() {
                 <p className="text-gray-800 py-1 dark:text-white">HTML</p>
                 <p className="text-gray-800 py-1 dark:text-white">CSS and frameworks</p>
               </div>
-              <div className="text-center shadow-lg p-10 rounded-xl my-10">
+              <div className="text-center shadow-2xl p-10 rounded-xl my-10">
                 <div style={{display: "flex",justifyContent: "center",}}>
                 <Image src={webapplication} width={100} height={100}/>
                 </div>
@@ -137,10 +138,11 @@ export default function Home() {
                 <p className="text-gray-800 py-1 dark:text-white">Java</p>
                 <p className="text-gray-800 py-1 dark:text-white">API's</p>
               </div>
-              <div className="text-center shadow-lg p-10 rounded-xl my-10">
+              <div className="text-center shadow-2xl p-10 rounded-xl my-10">
                 <div style={{display: "flex",justifyContent: "center",}}>
                 <Image src={datascience} width={100} height={100}/>
                 </div>
+                
                 
                 <h3 className="text-lg font-medium pt-8 pb-2 dark:text-white">Data Science</h3>
                 <p className="py-2 dark:text-white">
@@ -155,6 +157,7 @@ export default function Home() {
             </div>
        
         </section>
+        
         <section>
           <div className="text-center">
             <h3 className="text-3xl py-1 dark:text-white">Projects</h3>
@@ -183,7 +186,7 @@ export default function Home() {
             </div>
           </div>
           <div className="flex justify-center gap-10">
-          <div className="text-center shadow-lg p-10 rounded-xl my-10">
+          <div className="text-center shadow-2xl p-10 rounded-xl my-10">
                 <div style={{display: "flex",justifyContent: "center",}}>
                 <Image src={strength} width={100} height={100}/>
                 </div>
